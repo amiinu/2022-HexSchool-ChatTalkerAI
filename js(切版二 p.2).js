@@ -1,0 +1,62 @@
+$(document).ready(function(){
+    $('.plus-1').show(function(event){
+        $('.minus-1').hide();
+        $('.qa-a-1').hide();
+    });
+});
+$(document).ready(function(){
+    $('.plus-1').click(function(event){
+        $('.plus-1').hide();
+        $('.minus-1').show();
+        $('.qa-a-1').slideToggle();       
+    });
+});
+$(document).ready(function(){
+    $('.minus-1').click(function(event){
+        $('.minus-1').hide();
+        $('.plus-1').show();
+        $('.qa-a-1').slideToggle();       
+    });
+});
+
+$(document).ready(function(){
+        $('.plus-2').show(function(event){
+        $('.minus-2').hide();  
+        $('.qa-a-2').hide();
+    });
+});
+$(document).ready(function(){
+    $('.plus-2').click(function(event){
+        $('.plus-2').hide();
+        $('.minus-2').show();
+        $('.qa-a-2').slideToggle();       
+    });
+});
+$(document).ready(function(){
+    $('.minus-2').click(function(event){
+        $('.minus-2').hide();
+        $('.plus-2').show();
+        $('.qa-a-2').slideToggle();       
+    });
+});
+
+$(document).ready(function(){
+        $('.plus-3').show(function(event){
+        $('.minus-3').hide();
+        $('.qa-a-3').hide(); 
+    });
+});
+$(document).ready(function(){
+    $('.plus-3').click(function(event){
+        $('.plus-3').hide();
+        $('.minus-3').show();
+        $('.qa-a-3').slideToggle();      
+    });
+});
+$(document).ready(function(){
+    $('.minus-3').click(function(event){
+        $('.minus-3').hide();
+        $('.plus-3').show();
+        $('.qa-a-3').slideToggle();    
+    });
+});
